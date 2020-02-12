@@ -1,0 +1,77 @@
+body {
+    background-image: url('./images/tiny-squares.png');
+}
+
+
+nav {
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: lightblue; */
+    padding: 20px;
+    width: 100%;
+    /* border-style: solid; */
+    /* border-color: grey; */
+    /* border-radius: 12px; */
+}
+
+.searchbar {
+    display: flex;
+    text-align: center;
+    margin-left: 20%
+}
+
+#title-and-search {
+    margin-top: 20px;
+    background-color: tan;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 12px;
+    align-items: center;
+}
+
+#search-list {
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 12px;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+#searched-city {
+    border-style:solid;
+    border-color: black;
+    background-color: lightblue;
+
+}
+
+/* .results {
+    display: flex;
+} */
+
+#forecast {
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 12px;
+    width: 600px;
+    height: 400px;
+    /* padding-left: 60px; */
+    text-align: center
+}
+
+.spacing {
+    margin-top: 10px;
+}
